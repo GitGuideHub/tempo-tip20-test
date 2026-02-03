@@ -52,3 +52,17 @@ rather than synthetic transaction spam.
 ## Notes
 This repository is intended as public feedback
 and practical testing of the Tempo protocol.
+
+## Additional payment scenario: Invoices
+
+To further test TIP-20 payment capabilities,
+a simple invoice-based payment contract was deployed.
+
+Flow:
+1. Invoice created with invoiceId as reference
+2. Payer approves InvoicePayment contract
+3. Invoice is settled via transferFrom with memo = invoiceId
+
+This simulates real-world accounting and payroll flows
+using TIP-20 memo-based transfers.
+
