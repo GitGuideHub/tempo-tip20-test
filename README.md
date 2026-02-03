@@ -1,3 +1,15 @@
+## Tempo Moderato Testnet
+
+All contracts and transactions in this repository
+were redeployed and tested on the Tempo Moderato testnet.
+
+This includes:
+- Fresh TIP-20 deployment
+- Memo-based payments
+- Invoice payment flow
+- Multi-address interaction
+
+
 # tempo-tip20-test
 Testing TIP-20 token standard on Tempo testnet with payment-oriented use cases (memo, approve, transferFrom).
 # Tempo TIP-20 Testnet Participation
@@ -65,4 +77,7 @@ Flow:
 
 This simulates real-world accounting and payroll flows
 using TIP-20 memo-based transfers.
+
+Network: Tempo Moderato Testnet
+
 
